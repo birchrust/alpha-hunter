@@ -1,5 +1,10 @@
 import BaseLayout from "~/layouts/base";
+import { Header } from "~/components/alpha/header";
 
 export default function Home() {
-  return <BaseLayout>hi,birch</BaseLayout>;
+  return (
+    <BaseLayout>
+      <Header />
+    </BaseLayout>
+  );
 }
