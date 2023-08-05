@@ -1,4 +1,5 @@
-export default function Home() {
+import BaseLayout from "~/layouts/base";
 
-  return <div>hi,birch</div>;
+export default function Home() {
+  return <BaseLayout>hi,birch</BaseLayout>;
 }
