@@ -4,18 +4,18 @@
 
 @layer base {
   :root {
-    --color-text: rgb(30, 24, 21);
+    --color-text: rgb(10, 10, 10);
     --color-background: rgb(251, 250, 249);
-    --color-primary: rgb(141, 165, 176);
-    --color-secondary: rgb(216, 197, 197);
-    --color-accent: rgb(86, 112, 123);
+    --color-primary: rgb(143, 179, 255);
+    --color-secondary: rgb(235, 241, 255);
+    --color-accent: rgb(212, 29, 108);
   }
   .data-theme {
     --color-text: rgb(251, 250, 249);
     --color-background: rgb(30, 24, 21);
-    --color-primary: rgb(141, 165, 176);
-    --color-secondary: rgb(3, 2, 2);
-    --color-accent: rgb(168, 186, 194);
+    --color-primary: rgb(143, 179, 255);
+    --color-secondary: rgb(0, 25, 82);
+    --color-accent: rgb(212, 29, 108);
   }
 
   * {
